@@ -20,8 +20,6 @@ export default class FileTriggerPlugin extends Plugin
 
 	async onload() 
 	{
-		//console.log(this.app.commands.listCommands());
-
 		// Load the settings
 		await this.loadSettings();
 		
@@ -29,7 +27,6 @@ export default class FileTriggerPlugin extends Plugin
 		this.handler = new FileTrigger(this.settings.debounceTime, this.settings.command);
 		
 		// Register for OnLayoutReady call
-		//this.app.workspace.onLayoutReady(() => this.onLayoutReady);
 		this.app.workspace.onLayoutReady(this.onLayoutReady.bind(this));
 
 		// Add settings tab UI
