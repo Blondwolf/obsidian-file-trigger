@@ -45,8 +45,6 @@ export default class FileTriggerPlugin extends Plugin
 
 			// Register to modification event once layout is loaded
 			this.registerEvent(this.app.vault.on('modify', (file) => {
-				console.log("file modified");
-				
 				this.handler.executeCommandOnFileChange(file, this.app.commands);
 			}));
 		}

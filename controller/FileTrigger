@@ -1,5 +1,5 @@
-import { Plugin } from 'obsidian';
 
+// More logic could belong here
 export default class FileTrigger
 {
     // Inputs
