@@ -1,0 +1,11 @@
+{
+	"id": "file-trigger",
+	"name": "File Trigger",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Trigger a command on specified file changes.",
+	"author": "Obsidian",
+	"authorUrl": "https://obsidian.md",
+	"fundingUrl": "https://obsidian.md/pricing",
+	"isDesktopOnly": false
+}
