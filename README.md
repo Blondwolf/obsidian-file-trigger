@@ -1,6 +1,7 @@
 # Obsidian File Trigger
 
 Just a simple plugin to trigger a specific obsidian command on a specific file changes.
+
 The exemple works along with APIRequest Obsidian plugin but can maybe used somewhere else.
 
 ## Why
